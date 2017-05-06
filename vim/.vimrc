@@ -37,7 +37,7 @@ set laststatus=2
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 
 "Set colorscheme and font options.
-colorscheme neonwave1
+colorscheme vice
 set guifont=PragmataPro:h11
 
 "Set line no., buffer, search, highlight, autoindenet and more.
