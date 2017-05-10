@@ -212,9 +212,6 @@ bar {
 # bindsym XF86AudioNext exec playerctl next
 # bindsym XF86AudioPrev exec playerctl previous
 
-# For wallpaper change, insert path after feh
-exec --no-startup-id feh --randomize --bg-center ~/Pictures/ULTRAWIDEMASTERRACE/*
-
 # Scratchpad
 bindsym $mod+Shift+plus move container to scratchpad
 bindsym $mod+equal scratchpad show
@@ -243,6 +240,9 @@ mode "$mode_system" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
+
+# Applying random wallpaper on session start
+exec --no-startup-id feh --randomize --bg-center ~/Pictures/ULTRAWIDEMASTERRACE/*
 
 # Compton for opacity
 exec compton -f
